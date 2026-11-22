@@ -1,0 +1,17 @@
+node_modules
+dist
+src-tauri/target
+src-tauri/gen/android/build
+src-tauri/gen/android/.gradle
+src-tauri/gen/android/.kotlin
+src-tauri/gen/android/app/build
+src-tauri/gen/android/app/src/main/jniLibs
+src-tauri/gen/android/local.properties
+.DS_Store
+*.local
+
+# Секреты подписи Android — никогда не попадают в исходники/релиз.
+*.jks
+keystore.properties
+local.properties
+voidtrack-release-keystore.txt
